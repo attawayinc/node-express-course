@@ -1,11 +1,27 @@
 {
-  "name": "node-express-course",
+  "name": "express-course",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/attawayinc/node-express-course.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/attawayinc/node-express-course.git"
+  },
   "author": "= <=>",
   "license": "MIT",
   "dependencies": {
+    "eslint": "^7.15.0",
     "express": "^4.17.1"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "description": "## Description",
+  "bugs": {
+    "url": "https://github.com/attawayinc/node-express-course/issues"
+  },
+  "homepage": "https://github.com/attawayinc/node-express-course#readme",
+  "devDependencies": {},
+  "keywords": [
+    "express"
+  ]
 }
